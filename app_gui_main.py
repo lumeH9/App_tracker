@@ -40,7 +40,7 @@ while True:
             pbar = pbar + (100/input)
             window['-PBAR-'].update(pbar)
             time.sleep(1)
-            print(pbar)
+            print('progress bar ', pbar)
 
         response = thread.join() # waiting for thread to complete
         print('thread response: ', response)

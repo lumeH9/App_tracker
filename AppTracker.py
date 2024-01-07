@@ -26,5 +26,5 @@ def track_time(seconds):
                 process_time[open_app] = 0 # create new key-value pair if not
             process_time[open_app] = process_time[open_app] + 1 # updates time spent on app
             seconds  = seconds - 1
-    print(process_time)
+    print('App names and seconds used: ', process_time)
     return process_time
